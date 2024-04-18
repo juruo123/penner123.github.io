@@ -4,19 +4,19 @@
   
   
   <entry>
-    <title>continous-test</title>
+    <title>然后到了2024年，我又逐渐开始想要试试Hexo了</title>
     <link href="/2024/04/18/continous-test/"/>
     <url>/2024/04/18/continous-test/</url>
     
-    <content type="html"><![CDATA[<h1 id="然后到了2024年，我又逐渐开始想要试试Hexo了"><a href="#然后到了2024年，我又逐渐开始想要试试Hexo了" class="headerlink" title="然后到了2024年，我又逐渐开始想要试试Hexo了"></a>然后到了2024年，我又逐渐开始想要试试Hexo了</h1><p>那是一节普普通通的信安原过后，fkrgg说：“我周边的人怎么都在记笔记，除了wyl”。</p><p>压力给到wyl了。</p><p><img src="/assets%5C2024-04-18-continous-test%5C2024-04-18-continous-test.png" alt="image-20240418210609142"></p><p>外加平时好像上课听的也确实不怎么认真，那么要不就开始认真一点学吧否则真的要死在浙大了orzorz。</p><p>所以现在应该算是再学学这个hexo是怎么用的。不能在浏览器编辑确实不太方便，不过幸亏Typora还挺好用的，也算能实时预览了，那么拿Typora写好像也问题不大（每次写完依旧还是要hexo g，hexo d的，唉……）</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="然后到了2024年，我又逐渐开始想要试试Hexo了"><a href="#然后到了2024年，我又逐渐开始想要试试Hexo了" class="headerlink" title="然后到了2024年，我又逐渐开始想要试试Hexo了"></a>然后到了2024年，我又逐渐开始想要试试Hexo了</h1><p>那是一节普普通通的信安原过后，fkrgg说：“我周边的人怎么都在记笔记，除了wyl”。</p><p>压力给到wyl了。</p><p><img src="https://s2.loli.net/2024/04/18/1tQa6SyPmd2o4wZ.png" alt="哥们汗流浃背了"></p><p>外加平时好像上课听的也确实不怎么认真，那么要不就开始认真一点学吧否则真的要死在浙大了orzorz。</p><p>所以现在应该算是再学学这个hexo是怎么用的。不能在浏览器编辑确实不太方便，不过幸亏Typora还挺好用的，也算能实时预览了，那么拿Typora写好像也问题不大（每次写完依旧还是要hexo g，hexo d的，唉……）</p><p>继续吐槽一下hexo，文件分类系统依旧奇奇怪怪的，但是我也不挑，平时传图片直接拿图床传。可能会导致某的时候所有图片都加载不出来？问题不大，刷刷新，挂个梯子，总能看到图片的。不写了不写了，汇编课摸鱼写hexo，待会还要复习微积分<del>呃呃呃呃微积分你杀了我吧</del>。</p>]]></content>
     
     
-    
-    <tags>
+    <categories>
       
-      <tag>Test</tag>
+      <category>Test</category>
       
-    </tags>
+    </categories>
+    
     
   </entry>
   
