@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>小试图床</title>
+    <link href="/2023/10/21/%E5%B0%8F%E8%AF%95%E5%9B%BE%E5%BA%8A/"/>
+    <url>/2023/10/21/%E5%B0%8F%E8%AF%95%E5%9B%BE%E5%BA%8A/</url>
+    
+    <content type="html"><![CDATA[<p>你说得对，但是原神是一款由米哈游开发的开放世界动作游戏。</p><span id="more"></span><p>然后随便装了一下typora，拿picgo连上了mssm的图床，所以可以传上去图片了，不过不知道不搭梯子，访问mssm的速度快不快，懒得再去国内几个图床注册了。</p><p><img src="https://s2.loli.net/2023/10/21/wi8nN5ZbfqEUBsQ.png" alt="QQ截图20231013112325"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Test</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>114514</title>
+    <link href="/2023/10/20/114514/"/>
+    <url>/2023/10/20/114514/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一篇不臭的blog"><a href="#一篇不臭的blog" class="headerlink" title="一篇不臭的blog"></a>一篇不臭的blog</h1><h2 id="关于为什么马老师总是喜欢1145114这档事"><a href="#关于为什么马老师总是喜欢1145114这档事" class="headerlink" title="关于为什么马老师总是喜欢1145114这档事"></a>关于为什么马老师总是喜欢1145114这档事</h2><hr><blockquote><p>直接得出结论，马老师是homo</p></blockquote><p><img src="https://s2.loli.net/2023/10/21/9EgOL1QY6k8IZNP.jpg" alt="20-210Q5233Q7"></p><p>然后换个段落</p><p>竟然还有两空格换行<br>那么如果我一行打很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多很多的字，他的换行会是怎么样的呢？<br>不过VS Code里没有显示空格的数量，所以更安全的情况恐怕还是使用<code>&lt;br&gt;</code>来换行吧<br><br>然后接下来是代码的部分，那么就随便打一点代码吧。</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span><span class="hljs-string">&lt;bits/stdc++.h&gt;</span></span><br>using namespace <span class="hljs-built_in">std</span>;<br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>    <span class="hljs-type">int</span> a,b;<br>    <span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;&amp;d &amp;d&quot;</span>,&amp;a,&amp;b);<br>    <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d&quot;</span>,a+b);<br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure><p>然后是<em>斜体</em>和<strong>加粗</strong>，都可以试一试。</p><p><em>鲁迅先生曾经说过：</em></p><blockquote><p>每每到了需要打字的时候，才会觉得同时要打中文和英文会这么麻烦</p></blockquote><ol><li><p>然后这个是</p></li><li><p>列表</p></li><li><p>他甚至</p><ol><li>还能</li><li>分层次</li></ol></li><li><p>挺好的</p></li><li><p>Open the file.</p></li><li><p>Find the following code block on line 21:</p><pre><code class="hljs">&lt;html&gt;  &lt;head&gt;    &lt;title&gt;Test&lt;/title&gt;  &lt;/head&gt;</code></pre></li><li><p>Update the title to match the name of your website.</p></li></ol><p>从上述例子上来看，似乎直接使用制表符可以构成代码的效果？但是没有办法实现语言选择操作。</p><ul><li>再试一试</li><li>如果直接在<code>-</code>后面打字就是这个样子。</li><li><pre><code class="hljs">如果加入四个空格，就会长成这个样子</code></pre></li><li>还行</li></ul><p>好了好了这个文档写到这里差不多了。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2023/10/20/hello-world/"/>
+    <url>/2023/10/20/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
