@@ -4,6 +4,60 @@
   
   
   <entry>
+    <title>软件保护技术</title>
+    <link href="/2024/09/09/Software-Protection/"/>
+    <url>/2024/09/09/Software-Protection/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>课程名称：软件保护技术</p><p>上课教师：白洪欢</p><p>为信息安全专业选修课程，是可怕的白洪欢老师上的课，鉴于上学期的汇编语言的绩点最后只拿到了3.6，恐怕这学期的软保也要薄纱我均绩了😭。</p></blockquote><p>本学期的主要内容就包括</p><ol start="0"><li>基础知识：dos、windows的exe文件头。</li><li>脱壳技术。</li><li>给exe打补丁，给exe增加一个功能。</li></ol><h1 id="绪论"><a class="markdownIt-Anchor" href="#绪论"></a> 绪论</h1><h2 id="软件保护的分类"><a class="markdownIt-Anchor" href="#软件保护的分类"></a> 软件保护的分类</h2><p>保护：把exe和某个硬件介质建立联系，给exe加壳。</p><ol><li>软盘指纹，将软件和软盘关联，进行加密，即软盘指纹。通常根据软盘上的一些特征进行校验。<br />光盘指纹也是光盘上一些特殊的部分，但是如Deamon tools等软件可以完全复制一张光盘为iso文件。</li><li>序列号：跟机器特征码相关，通常和网卡的mac地址，硬盘的序列号相关。<br />作者：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mi>n</mi><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>M</mi><mi>a</mi><mi>c</mi><mi>h</mi><mi>i</mi><mi>n</mi><mi>e</mi><mi>C</mi><mi>o</mi><mi>d</mi><mi>e</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">sn = f(MachineCode)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">a</span><span class="mord mathnormal">c</span><span class="mord mathnormal">h</span><span class="mord mathnormal">i</span><span class="mord mathnormal">n</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord mathnormal">d</span><span class="mord mathnormal">e</span><span class="mclose">)</span></span></span></span><br />用户电脑：<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mi>a</mi><mi>c</mi><mi>h</mi><mi>i</mi><mi>n</mi><mi>e</mi><mi>C</mi><mi>o</mi><mi>d</mi><mi>e</mi><mo>=</mo><msup><mi>f</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo stretchy="false">(</mo><mi>s</mi><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">MachineCode = f^{-1}(sn)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">a</span><span class="mord mathnormal">c</span><span class="mord mathnormal">h</span><span class="mord mathnormal">i</span><span class="mord mathnormal">n</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.07153em;">C</span><span class="mord mathnormal">o</span><span class="mord mathnormal">d</span><span class="mord mathnormal">e</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span>​<br />网卡的mac可以通过注册表修改，而硬盘的序列号相对较难修改。​<br />VMProtect在对exe加壳时会对原exe中的某些指定函数作虚拟化加密，从而防止脱壳。将原先的x64/x86汇编转换成另一种新的汇编代码，再创建VM虚拟机运行这些代码，来防止静态调试破解。</li></ol><h3 id=""><a class="markdownIt-Anchor" href="#"></a> </h3>]]></content>
+    
+    
+    <categories>
+      
+      <category>课堂笔记，软件保护技术</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>笔记，软保</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>计算机系统II</title>
+    <link href="/2024/09/09/Computer-System-II/"/>
+    <url>/2024/09/09/Computer-System-II/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>鉴于每节课之间内容稍有关联，且内容较为复杂，因而本学期（24-25秋冬学期）开始每门课仅单独写一篇笔记，方便整理与阅读。</p></blockquote><hr /><blockquote><p>课程名称：计算机系统II</p><p>上课教师：常瑞，吴磊</p><p>为信息安全专业必修课程，大概率会和<strong>计算机系统I</strong>一样折磨人。</p></blockquote>]]></content>
+    
+    
+    <categories>
+      
+      <category>课堂笔记</category>
+      
+      <category>计算机系统II</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>笔记</tag>
+      
+      <tag>计统</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>CTF</title>
     <link href="/2024/07/02/CTF/"/>
     <url>/2024/07/02/CTF/</url>
